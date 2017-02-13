@@ -35,7 +35,7 @@ async.each(arrayFile,
     jsonObject = jsonObject.substring(0,jsonObject.length-1);
     jsonObject += '}';
 
-    fs.writeFile("wemoji.json",jsonObject,function(err) {
+    fs.writeFile("organized-emojione.json",jsonObject,function(err) {
         if(err) {
             return console.log(err);
         }
