@@ -22,7 +22,9 @@ async.each(arrayFile,
           var node = $(this);
           var nameImage= node.attr('data-unicode');
           var titleImage= node.attr('data-title');
-          jsonObject += '{"name": "' + titleImage + '","path":"png/' + nameImage+ '.png"},';    
+          jsonObject += '{"name": "' + titleImage + '",'+
+                            '"path_png":"png/' + nameImage+ '.png",'+
+                            '"path_svg":"svg/' + nameImage+ '.svg"},';    
       });
 
     jsonObject = jsonObject.substring(0,jsonObject.length-1);
