@@ -3,3 +3,21 @@
 # organizeEmojiOne
 
 This is the repo of the code that I wrote to organize all the [EmojiOne emoji](http://emojione.com/) with a simple script in javascript.
+
+## Structure
+
+- HTML files
+    - [smile_people.html](smile_people.html)
+    - [animals_nature.html](animals_nature.html)
+    - [food_drink.html](food_drink.html)
+    - [activity.html](activity.html)
+    - [travel_places.html](travel_places.html)
+    - [objects.html](objects.html)
+    - [symbols.html](symbols.html)
+    - [flags.html](flags.html)
+    - [diversity.html](diversity.html)
+- Main code
+    - [organize-emojione.js](organize-emojione.js)
+- Result
+    - [organized-emojione.json](organized-emojione.json)
+
