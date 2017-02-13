@@ -21,3 +21,9 @@ This is the repo of the code that I wrote to organize all the [EmojiOne emoji](h
 - Result
     - [organized-emojione.json](organized-emojione.json)
 
+## Run 
+
+To run the code all you have to do is to clone the repo, install the dependencies: [cheerio](https://github.com/cheeriojs/cheerio) and [async](https://github.com/caolan/async) and run it with
+```
+nodejs organize-emojione.js
+```
